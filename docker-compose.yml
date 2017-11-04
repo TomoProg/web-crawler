@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+
+  web_clawler:
+    build: .
+    container_name: clawler
+    volumes:
+      - ./app:/app
+    tty: true
+
